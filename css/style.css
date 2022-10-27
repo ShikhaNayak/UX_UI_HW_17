@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #16006D;
+}
+#logosize{
+    margin: 10px;
+    padding: 5px;
+    display:flex ;
+    height:30px;
+    width: auto;
+}
+nav{
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+     margin: 8px;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+
+}
+
+ul > li{
+    margin: 15px;
+   float: right;
+   
+} 
+#heroimage{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: right;
+}
+h1{
+    display: flex;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px ;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #EBEBEB;
+    float: left;
+    width: 30%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #FFC466;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  }
+
+footer{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #16006D;
+}
